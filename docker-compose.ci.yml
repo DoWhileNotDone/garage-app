@@ -1,0 +1,5 @@
+version: '3.8'
+services:
+  garage-app-mysql:
+    volumes:    
+      - /tmp/docker/volumes/mysql:/var/lib/mysql
